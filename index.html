@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DevPop</title>
+<style>
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+main{
+	position: absolute;
+	left:50%;
+	top:50%;
+	width: 700px;
+	height: 650px;
+	transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+#background{
+	width:0px;
+	height:0px;
+	position:absolute;
+	left:25vw;
+	top:50vh;
+	animation: backgirar  10s linear infinite;
+
+
+}
+span{
+	transform-origin: 0% 0%;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 300px;
+	height: 50px;
+	display: block;
+	border-bottom-left-radius: 100%;
+	border-bottom: 26px solid transparent;
+
+}
+.lastspan{
+	background:
+	 line-height:0;
+ width:0;
+ height:0;
+ border-style: solid;
+ border-width: 1px 300px 55px 1px;
+}
+#spanlast1{
+	border-color: transparent #b044be transparent transparent;
+}
+#spanlast2{
+	border-color: transparent #48ffbf transparent transparent;
+}
+#spanlast3{
+	border-color: transparent #42b2bf transparent transparent;
+}
+@keyframes backgirar {
+	from{
+		transform:rotate(0deg);
+	}
+	to{
+		transform:rotate(360deg);
+	}
+}
+body{
+	background:#000;
+}
+</style>
+</head>
+<body>
+
+
+	<main>
+		
+		<div id="background">
+			<span style="transform:rotate(10deg);background:#48ffbf;"></span>
+			<span style="transform:rotate(20deg);background:#42b2bf;"></span>
+			<span style="transform:rotate(30deg);background:#6943bd;"></span>
+			<span style="transform:rotate(40deg);background:#b044be;"></span>
+			<span style="transform:rotate(50deg);background:#fe4769;"></span>
+			<span style="transform:rotate(60deg);background:#ffb668;"></span>
+			<span style="transform:rotate(70deg);background:#fffe69;"></span>
+			<span style="transform:rotate(80deg);background:#92ff66;"></span>
+			<span style="transform:rotate(90deg);background:#48ffbf;"></span>
+			<span style="transform:rotate(100deg);background:#42b2bf;"></span>
+			<span style="transform:rotate(110deg);background:#6943bd;"></span>
+			<span style="transform:rotate(120deg);background:#b044be;"></span>
+			<span style="transform:rotate(130deg);background:#fe4769;"></span>
+			<span style="transform:rotate(140deg);background:#ffb668;"></span>
+			<span style="transform:rotate(150deg);background:#fffe69;"></span>
+			<span style="transform:rotate(160deg);background:#92ff66;"></span>
+			<span style="transform:rotate(170deg);background:#48ffbf;"></span>
+			<span style="transform:rotate(180deg);background:#42b2bf;"></span>
+			<span style="transform:rotate(190deg);background:#6943bd;"></span>
+			<span style="transform:rotate(200deg);background:#b044be;"></span>
+			<span style="transform:rotate(210deg);background:#fe4769;"></span>
+			<span style="transform:rotate(220deg);background:#ffb668;"></span>
+			<span style="transform:rotate(230deg);background:#fffe69;"></span>
+			<span style="transform:rotate(240deg);background:#92ff66;"></span>
+			<span style="transform:rotate(250deg);background:#48ffbf;"></span>
+			<span style="transform:rotate(260deg);background:#42b2bf;"></span>
+			<span style="transform:rotate(270deg);background:#6943bd;"></span>
+			<span style="transform:rotate(280deg);background:#b044be;"></span>
+			<span style="transform:rotate(290deg);background:#fe4769;"></span>
+			<span style="transform:rotate(300deg);background:#ffb668;"></span>
+			<span style="transform:rotate(310deg);background:#fffe69;"></span>
+			<span style="transform:rotate(320deg);background:#92ff66;"></span>
+			<span style="transform:rotate(330deg);background:#48ffbf;"></span>
+			<span style="transform:rotate(340deg);background:#42b2bf;"></span>
+			<span style="transform:rotate(350deg);background:#6943bd;"></span>
+			<span style="transform:rotate(360deg);" class="lastspan" id="spanlast1"></span>
+			<span style="transform:rotate(370deg);" class="lastspan" id="spanlast2"></span>
+			<span style="transform:rotate(380deg);" class="lastspan" id="spanlast3"></span>
+		</div>	
+	</main>
+
+</body>
+</html>
